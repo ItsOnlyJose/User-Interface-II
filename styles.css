@@ -1,0 +1,22 @@
+header {
+    border: 1px green solid;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+header > div{
+    border: 2px green solid;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border: 2px black solid;
+}
+
+div > img{
+    height: 25%;
+    width: 25%;
+}
