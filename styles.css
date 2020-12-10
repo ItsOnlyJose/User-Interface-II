@@ -9,11 +9,15 @@ header > div{
     border: 2px green solid;
 }
 
+.nav{
+    height: 40px;
+}
+
 .nav a{
     text-decoration: none;
     padding: 10px;
     text-align: center;
-    border: 2px black solid;
+    border: 1px black solid;
 }
 
 div > img{
