@@ -76,11 +76,13 @@ div .img-container {
     flex-direction: column;
     justify-content: flex-end;
     flex-wrap: wrap;
+    color: lightgray;
+    font-family: 'Courgette', cursive;
 }
 
 .intro-text p {
-    font-size: 1.6rem;
-    width: 80%;
+    font-size: 1.3rem;
+    width: 89%;
     margin-left: 4vw;
 }
 .intro-text h2 {
@@ -114,7 +116,11 @@ div .img-container {
   margin: 5px;
   height: 30vh;
   background-color: blue;
+  background-image: url(https://picsum.photos/400/400);
+  background-blend-mode: multiply;
+  background-size: cover;
 }
+
 
 a > img {
     height: 100%;
@@ -122,6 +128,7 @@ a > img {
     max-height: 100%;
     width: 100%;
 }
+
 
 
 
