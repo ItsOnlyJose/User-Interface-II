@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    border: 1px green solid;
+    /* border: 1px green solid; */
     /* background: gray; */
     display: flex;
     flex-direction: column;
@@ -51,9 +51,9 @@ header .my-name{
     height: 30vh;
   }
   
-.main-top div{
+/* .main-top div{
     border: 1px dashed black;
-}
+} */
 
 div .img-container {
     background: red;
@@ -104,6 +104,7 @@ div .img-container {
 .intro-text a:hover {
     background: linear-gradient(#3f1898,blue);
     box-shadow: 1px 1px 8px #888888;
+    color: lightgray;
 }
 
 .main-bottom{
@@ -115,11 +116,11 @@ div .img-container {
   flex: 1 0 20%; /* explanation below */
   margin: 5px;
   height: 30vh;
-  background-color: blue;
-  background-image: url(https://picsum.photos/400/400);
+  background-image: url(https://picsum.photos/900/900);
   background-blend-mode: multiply;
   background-size: cover;
 }
+
 
 
 a > img {
@@ -129,6 +130,37 @@ a > img {
     width: 100%;
 }
 
+footer{
+    height: 15vh;
+    /* background: rgb(0, 21, 139); */
+    background-image: linear-gradient(180deg, #ec3343, #ec3343 60%, #3f1898), url(/images/Cumulus_clouds_panorama.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+footer h3{
+    color: lightgray;
+    mix-blend-mode: difference;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
 
+footer a {
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    padding: 1vh;
+    width: 4vw;
+    text-align: center;
+    box-shadow: black;
+}
 
+footer a:hover {
+    background: linear-gradient(#3f1898,blue);
+    box-shadow: 1px 1px 8px #888888;
+    color: lightgray;
+}
